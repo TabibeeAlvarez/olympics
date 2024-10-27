@@ -1,0 +1,42 @@
+	*{
+		margin: 0%;
+		padding: 0%;
+		box-sizing: border-box;
+	}
+	
+	nav{
+		background-color: green;
+		height: 10vh;
+	}
+	
+	nav ul h1{
+		color: white;
+	}
+	
+	nav ul{
+		justify-content: space-around;
+		display: flex;
+		align-items: center;
+		list-style-type: none;
+	}
+	
+	nav li{
+		justify-content: space-between;
+		margin: 25px 15px;
+	}
+	
+	nav li a{
+		margin: 0 15px;
+		text-decoration: none;
+		color: white;
+		padding: 10px 10px;
+		border-radius: 1rem;
+		font-size: 20px;
+		transition: 0.5s;
+	}
+	
+	nav li a:hover{
+		background-color: black;
+		color: green;
+		transition: 0.5s;
+	}

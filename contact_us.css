@@ -1,0 +1,97 @@
+	*{
+		margin: 0%;
+		padding: 0%;
+		box-sizing: border-box;
+	}
+	
+	nav{
+		background-color: green;
+		height: 10vh;
+	}
+	
+	nav ul h1{
+		color: white;
+		font-family: sans-serif;
+	}
+	
+	nav ul{
+		justify-content: space-around;
+		display: flex;
+		align-items: center;
+		list-style-type: none;
+	}
+	
+	nav li{
+		justify-content: space-between;
+		margin: 25px 15px;
+	}
+	
+	nav li a{
+		margin: 0 15px;
+		text-decoration: none;
+		color: white;
+		padding: 10px 10px;
+		border-radius: 1rem;
+		font-size: 20px;
+		transition: 0.5s;
+		font-family: sans-serif;
+	}
+	
+	nav li a:hover{
+		background-color: black;
+		color: green;
+		transition: 0.5s;
+	}
+	
+	.contact-box{
+		width: 70%;
+		height: 90vh;
+		margin-top: 5%;
+		margin-left: auto;
+		margin-right: auto;
+		
+	}
+	
+	.contact-inside{
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
+		padding: 20px;
+		width: 100%;
+		gap: 15px;
+	}
+	
+	.contact-content{
+		border: solid 1px black;
+		width: 500px;
+		height: 300px;
+	}
+	
+	.contact-content a{
+		display: flex;
+		border: solid 1px black;
+		padding: 10px;
+		width: 100px;
+		margin-left: auto;
+		margin-right: auto;
+		margin: 10px;
+		text-decoration: none;
+		color: green;
+		font-family: sans-serif;
+	}
+	
+	.contact-content a:hover{
+		color: black;
+		text-decoration: underline;
+	}
+	
+	.contact-content .tite{
+		text-align: center;
+		padding: 7px;
+	}
+	
+	.header{
+		background-color: black;
+		color: white;
+		text-align: center;
+		font-family: sans-serif;
+	}
